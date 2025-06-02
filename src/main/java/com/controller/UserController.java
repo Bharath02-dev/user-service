@@ -10,7 +10,7 @@ public class UserController {
 
     @GetMapping("/health-check")
     public String healthCheck(){
-        return "Ok";
+        return "Checked";
     }
 
 
